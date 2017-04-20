@@ -1,5 +1,7 @@
 package com.sample.urong.scala
 
+import com.sample.urong.java.JavaStarter
+
 // this is my first scala program.
 // Scala object is singleton. do not need static. this maybe i think to Similar bean in Spring framework.
 object ScalaStarter {
@@ -9,6 +11,9 @@ object ScalaStarter {
 
     var i = multiply(1)(2);
     print(i);
+
+    var java = new JavaStarter();
+    java.test();
 
   }
 
